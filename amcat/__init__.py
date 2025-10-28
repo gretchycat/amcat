@@ -1,1 +1,1 @@
-__all__ = ['cli', 'core']
+__version__ = '0.2.1'

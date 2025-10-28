@@ -1,17 +1,7 @@
 # amcat — ANSI Music Cat
 
-Bit-perfect terminal **passthrough** + **live ANSI-music playback** using FluidSynth — with optional **MIDI export**, **summary analytics**, and **strict** ANSI validation.
+Part of the Terminal Multimedia Specification (TMS) by Gretchen Maculo.
 
-## Quickstart
+Bit-perfect terminal passthrough with live ANSI-music playback, MIDI embedding, and audio resource caching.
 
-```bash
-# prerequisites (Linux example)
-sudo apt-get install -y fluidsynth
-python -m pip install pyFluidSynth mido
-
-# install amcat in editable mode
-pip install -e .
-
-# play an ANSI-music file with full terminal art preserved
-amcat ghostbusters.ams --summary --strict
-```
+See `terminal-music-extension.md` for draft specification details.
